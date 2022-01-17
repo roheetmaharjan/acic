@@ -47,26 +47,30 @@
 		<h1 class="section-title">Our Campuses</h1>
 		<div class="row">
 			<div class="col-sm-12 col-md-6">
-				<div class="box-with-bg-img">
-					<figure>
-						<img src="./assets/img/parramatta.jpg" alt="">
-					</figure>
-					<div class="box-with-bg-img-title">
-						<h4>Parramatta Campus</h4>
-						<p>Suite 1, Level 2, 17-21 Macquarie St, Parramatta, New South Wales 2150</p>
+				<a href="#">
+					<div class="box-with-bg-img">
+						<figure>
+							<img src="./assets/img/parramatta.jpg" alt="">
+						</figure>
+						<div class="box-with-bg-img-title">
+							<h4>Parramatta Campus</h4>
+							<p>Suite 1, Level 2, 17-21 Macquarie St, Parramatta, New South Wales 2150</p>
+						</div>
 					</div>
-				</div>
+				</a>
 			</div>
 			<div class="col-sm-12 col-md-6">
-				<div class="box-with-bg-img">
-					<figure>
-						<img src="./assets/img/darwin-campus.jpg" alt="">
-					</figure>
-					<div class="box-with-bg-img-title">
-						<h4>Darwin Campuse</h4>
-						<p>43 Cavenagh Street, Darwin Northern Territory 0800</p>
+				<a href="#">
+					<div class="box-with-bg-img">
+						<figure>
+							<img src="./assets/img/darwin-campus.jpg" alt="">
+						</figure>
+						<div class="box-with-bg-img-title">
+							<h4>Darwin Campuse</h4>
+							<p>43 Cavenagh Street, Darwin Northern Territory 0800</p>
+						</div>
 					</div>
-				</div>
+				</a>
 			</div>
 		</div>
 		<div class="campus-btn-wrp">
