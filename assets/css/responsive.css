@@ -1,0 +1,80 @@
+@media(max-width: 1440px) {
+    html {
+        font-size: 52.5%
+    }
+}
+
+@media(max-width: 1024px) {
+    html {
+        font-size: 50.5%
+    }
+    .hero-banner .owl-nav {
+        right: 0;
+    }
+}
+
+@media(max-width:768px) {
+    body{
+        overflow-x: hidden;
+    }
+    html {
+        font-size: 45.5%
+    }
+    .hero-banner .hero-banner-content {
+        padding-right: 5rem;
+    }
+    #header .header-top ul {
+        text-align: center;
+    }
+    .box-with-bg-img figure {
+        min-height: 45.5rem;
+    }
+    .post .post-image {
+        min-height: 40rem;
+    }
+    .cta .cta-title {
+        max-width: 100%;
+        text-align: center;
+    }
+    .social.float-left {
+        float: none !important;
+        text-align: center;
+    }
+    .header-top .col-xs-12.col-sm-12.col-md-9 {
+        display: flex;
+        display: -webkit-flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+    .step .step-icon {
+        min-width: 15rem;
+    }
+    .inner-page {
+        padding-top: 20rem;
+    }
+    .pl-12 {
+        padding-left: 5rem;
+    }
+}
+
+@media(max-width: 640px) {
+    .radial-green-section .btn {
+        margin-bottom: 2rem;
+    }
+    .inner-page .col-3,.inner-page .col-9.pl-12 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-left: 2rem;
+    }
+    .box-with-text {
+        margin-top: 2rem;
+    }
+}
+@media(max-width: 414px) {
+    div.our_p {
+        margin-bottom: 0;
+    }
+}

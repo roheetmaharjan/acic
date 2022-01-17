@@ -1,0 +1,31 @@
+.table tr td,
+.table tr th {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: left;
+    padding: 2.5rem;
+    background-color: #EFF9FE;
+}
+.table-bordered td, .table-bordered th {
+    border: 3px solid #f6fcff;
+}
+.table tr th {
+    background-color: #DEEDF5;
+    font-size: 1.5rem;
+    padding: 3.5rem 2.5rem;
+    color: #21A690;
+    font-weight: 800;
+}
+.search-result {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #A1B1BA;
+    margin-bottom: 0;
+    text-align: right;
+    line-height: 9rem;
+}
+.table  .table-head-img{
+    float: right;
+    margin-bottom: 0;
+    max-width: 12rem;
+}
