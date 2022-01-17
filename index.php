@@ -92,7 +92,7 @@
 			<div class="col-sm-12 col-md-7">
 				<div class="news-block news-block-with-text-overlay">
 					<figure>
-						<img src="./assets/img/campus1.png" alt="">
+						<img src="./assets/img/news1.jpg" alt="">
 					</figure>
 					<div class="box-with-bg-img-title">
 						<div class="event-date">News - 8 Oct 2021</div>
@@ -103,7 +103,7 @@
 			<div class="col-sm-12 col-md-5">
 				<div class="news-block">
 					<figure>
-						<img src="./assets/img/campus1.png" alt="">
+						<img src="./assets/img/news2.jpg" alt="">
 					</figure>
 					<div class="box-with-bg-img-title">
 						<div class="event-date">Events - 15 Sep 2021</div>
@@ -112,7 +112,7 @@
 				</div>
 				<div class="news-block">
 					<figure>
-						<img src="./assets/img/campus1.png" alt="">
+						<img src="./assets/img/news3.jpg" alt="">
 					</figure>
 					<div class="box-with-bg-img-title">
 						<div class="event-date">Events - 15 Sep 2021</div>
