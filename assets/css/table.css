@@ -1,28 +1,32 @@
 .table tr td,
 .table tr th {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     text-align: left;
     padding: 2.5rem;
-    background-color: #EFF9FE;
+    background-color: #f1f5ff;
+}
+.table tr:nth-child(even) td{
+    background-color: #f9fbff;
 }
 .table-bordered td, .table-bordered th {
-    border: 3px solid #f6fcff;
+    border: none;
 }
 .table tr th {
-    background-color: #DEEDF5;
+    background-color: #ffffff;
     font-size: 1.5rem;
     padding: 3.5rem 2.5rem;
-    color: #21A690;
+    color: var(--second-color);
     font-weight: 800;
+    border-top: 2px solid var(--second-color);
+    border-bottom: 2px solid var(--second-color);
 }
 .search-result {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #A1B1BA;
-    margin-bottom: 0;
-    text-align: right;
-    line-height: 9rem;
+    color: var(--second-color);
+    margin-bottom: 1rem;
+    text-align: left;
 }
 .table  .table-head-img{
     float: right;

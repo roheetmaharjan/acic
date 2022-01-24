@@ -39,7 +39,7 @@
 			</div>
 		</div>
 	</div>
-</section>	
+</section>
 
 <!-- ========== SECTION CAMPUS ================= -->
 <section id="box-with-bg-img" class="section-padding box-with-bg-img-wrp pt-0">
@@ -82,7 +82,21 @@
 <!-- ========== SECTION TESTIMONIAL ================= -->
 <section id="testimonial" class="section-padding testimonial">
 	<div class="container">
-
+		<div class="owl-carousel owl-theme testimonial-slider">
+			<div class="testimonial-item">
+				<div class="testimonial-content">
+					<img src="./assets/img/testi-quote.png" alt="" class="testimonial-quote-icon">
+					<h5>I’m so grateful for the scholarship and for ACIC in general. Everyone is so supportive and accepting. It really feels like another home to me.</h5>
+					<div class="testimonial-name">Sumi Yadav</div>
+					<div class="testimonial-designation">Leadership & Management</div>
+				</div>
+				<div class="testimonial-image-wrp">
+					<figure>
+						<img src="./assets/img/testimonial.jpg" alt="">
+					</figure>
+				</div>
+			</div>
+		</div>
 	</div>
 </section>
 <!-- ========== SECTION NEWS AND EVENTS ================= -->

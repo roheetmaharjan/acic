@@ -86,9 +86,7 @@
 			</div>
 
 			<div class="header-nav nav-fixed-scroll clearfix">
-				<nav id="navbar" class="mega-menu menuFullWidth <?php if ($page == 'page') {
-														echo 'remove-fixed';
-													} ?>">
+				<nav id="navbar" class="mega-menu menuFullWidth">
 					<!-- menu list items container -->
 					<div class="menu-list-items ">
 						<div class="container">
@@ -103,8 +101,8 @@
 								<!-- menu links -->
 								<ul class="menu-links menu-links-align-right">
 									<!-- active class -->
-									<li class="hoverTrigger"><a href="#"> Agents</a></li>
-									<li class="hoverTrigger"><a href="#">Campus Location</a></li>
+									<li class="hoverTrigger"><a href="./agent.php"> Agents</a></li>
+									<li class="hoverTrigger"><a href="./campus-location.php">Campus Location</a></li>
 									<li class="hoverTrigger"><a href="#">FAQs</a></li>
 									<li class="hoverTrigger"><a href="#">Covid Updates </a></li>
 									<li class="hoverTrigger"><a href="#">News</a></li>
@@ -120,13 +118,13 @@
 									<div class="nv-nav-wrap">
 										<ul id="nv-primary-navigation-main" class="primary-menu-ul nav-ul">
 											<li class="menu-item">
-												<a href="">
+												<a href="./agent.php">
 													<span class="menu-item-title-wrap">About Us</span>
 												</a>
 											</li>
 											<li class="menu-item">
 												<div class="menu-item-name-cart">
-													<a href="">
+													<a href="./campus-location.php">
 														<span class="menu-item-title-wrap">Future Students       </span>
 													</a>
 												</div>

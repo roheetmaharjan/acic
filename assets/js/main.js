@@ -1,10 +1,10 @@
 
 $(document).ready(function() {
-    //For Image Slider in banner
-    $('.hero-banner.owl-carousel').owlCarousel({
+    //For Testimonial Slider 
+    $('.owl-carousel.testimonial-slider').owlCarousel({
         loop: true,
+        margin: 10,
         nav: true,
-        dots: false,
         responsive: {
             0: {
                 items: 1
@@ -17,59 +17,7 @@ $(document).ready(function() {
             }
         }
     })
-    // For text slider in banner
-    $('.text-carousel.owl-carousel').owlCarousel({
-        loop: true,
-        nav: true,
-        dots: false,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 1
-            },
-            1000: {
-                items: 1
-            }
-        }
-    })
-    // For client
-    $('.client-carousel.owl-carousel').owlCarousel({
-        loop: false,
-        nav: false,
-        dots: false,
-        margin: 20,
-        responsive: {
-            0: {
-                items: 3
-            },
-            600: {
-                items: 4
-            },
-            1000: {
-                items: 5
-            }
-        }
-    })
-
-    //For Image Slider in banner
-    $('.gallery-slider.owl-carousel').owlCarousel({
-        loop: true,
-        nav: true,
-        dots: false,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 1
-            },
-            1000: {
-                items: 1
-            }
-        }
-    })
+    
 
     /* To stick navbar at top when scroll */
     $(function() {
