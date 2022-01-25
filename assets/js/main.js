@@ -2,9 +2,9 @@
 $(document).ready(function() {
     //For Testimonial Slider 
     $('.owl-carousel.testimonial-slider').owlCarousel({
-        loop: true,
-        margin: 10,
+        loop: false,
         nav: true,
+        dots: false,
         responsive: {
             0: {
                 items: 1
