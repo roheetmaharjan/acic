@@ -87,26 +87,26 @@ include('include/header.php'); ?>
                         <h3 class="tabs-title">Admissions Related Questions</h3>
                         <div class="accordion">
                             <div class="accordion-item">
-                                <div class="head active">1. What is turn around time for OFFER LETTER AND coes?</div>
-                                <div class="content active">
+                                <div class="head">1. What is turn around time for OFFER LETTER AND coes?</div>
+                                <div class="content">
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus non ut sunt blanditiis id obcaecati vel qui cupiditate repellat.</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <div class="head active">2. How can I see LLN test Results?</div>
-                                <div class="content active">
+                                <div class="head">2. How can I see LLN test Results?</div>
+                                <div class="content">
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus non ut sunt blanditiis id obcaecati vel qui cupiditate repellat.</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <div class="head active">3. Can I pay lower deposit for COE?</div>
-                                <div class="content active">
+                                <div class="head">3. Can I pay lower deposit for COE?</div>
+                                <div class="content">
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus non ut sunt blanditiis id obcaecati vel qui cupiditate repellat.</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <div class="head active">4. When can you make payments for eCOE’s?</div>
-                                <div class="content active">
+                                <div class="head">4. When can you make payments for eCOE’s?</div>
+                                <div class="content">
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus non ut sunt blanditiis id obcaecati vel qui cupiditate repellat.</p>
                                 </div>
                             </div>
@@ -116,26 +116,26 @@ include('include/header.php'); ?>
                         <h3 class="tabs-title">Accounts Related Questions</h3>
                         <div class="accordion">
                             <div class="accordion-item">
-                                <div class="head active">1. When should I pay my dues?</div>
-                                <div class="content active">
+                                <div class="head">1. When should I pay my dues?</div>
+                                <div class="content">
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus non ut sunt blanditiis id obcaecati vel qui cupiditate repellat.</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <div class="head active">2. Is there any penalty for late payment?</div>
-                                <div class="content active">
+                                <div class="head">2. Is there any penalty for late payment?</div>
+                                <div class="content">
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus non ut sunt blanditiis id obcaecati vel qui cupiditate repellat.</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <div class="head active">3. How can I request for extension payment due date?</div>
-                                <div class="content active">
+                                <div class="head">3. How can I request for extension payment due date?</div>
+                                <div class="content">
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus non ut sunt blanditiis id obcaecati vel qui cupiditate repellat.</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <div class="head active">4. Is material fees refundable?</div>
-                                <div class="content active">
+                                <div class="head">4. Is material fees refundable?</div>
+                                <div class="content">
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus non ut sunt blanditiis id obcaecati vel qui cupiditate repellat.</p>
                                 </div>
                             </div>
