@@ -4,7 +4,7 @@
     font-weight: 700;
     text-align: left;
     padding: 2.5rem;
-    background-color: #f1f5ff;
+    background-color: var(--light-background);
 }
 .table tr:nth-child(even) td{
     background-color: #f9fbff;

@@ -104,8 +104,8 @@
 									<li class="hoverTrigger"><a href="./agent.php"> Agents</a></li>
 									<li class="hoverTrigger"><a href="./campus-location.php">Campus Location</a></li>
 									<li class="hoverTrigger"><a href="./faq.php">FAQs</a></li>
-									<li class="hoverTrigger"><a href="#">Covid Updates </a></li>
-									<li class="hoverTrigger"><a href="#">News</a></li>
+									<li class="hoverTrigger"><a href="./covid.php">Covid Updates </a></li>
+									<li class="hoverTrigger"><a href="./news.php">News</a></li>
 									<li class="hoverTrigger"><a href="#">Career</a></li>
 								</ul>
 							</div>
@@ -118,7 +118,7 @@
 									<div class="nv-nav-wrap">
 										<ul id="nv-primary-navigation-main" class="primary-menu-ul nav-ul">
 											<li class="menu-item">
-												<a href="./agent.php">
+												<a href="./about.php">
 													<span class="menu-item-title-wrap">About Us</span>
 												</a>
 											</li>
