@@ -25,145 +25,89 @@ include('include/header.php'); ?>
                         <h3 class="tabs-title">Student Support Related Questions</h3>
                         <div class="accordion">
                             <div class="accordion-item">
-                                <div class="head active">How do I make an appointment?</div>
+                                <div class="head active">1. How can I apply for Leave?</div>
                                 <div class="content active">
-                                    <p>To make an appointment call and speak to our friendly reception staff</p>
-                                    <p>(08) 6118 8485 or send email to reception@orionspecialist.com.au</p>
+                                    <p>The student is required to come to the campus and discuss with the Student Support Officer to apply for leave. The student can go on Holiday during the College break. When the course is in session – students are not allowed to go on leave unless it is compassionate or compelling reason and attendance must be more than 80%. Please ask the student to refer to our Attendance Policy and Procedure and Leave Policy and Procedure available under the downloads section on our website.</p>
+                                    
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <div class="head">Do I need a referral?</div>
+                                <div class="head">2. What if I already bought</div>
                                 <div class="content">
-                                    <p>If you are a Medicare card holder and wish to claim a rebate from Medicare it is required to have a referral from either your GP or another specialist. GP referral is preferred as it lasts 12 months, whereas a specialist referral is valid for 3 months only.
-                                    </p>
-                                    <p>Patients who do not wish to claim Medicare benefits or do not have Medicare do not need a referral.
-                                    </p>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur nulla similique sunt dicta consequatur consectetur asperiores unde, quisquam ipsum deleniti?</p>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur nulla similique sunt dicta consequatur consectetur asperiores unde, quisquam ipsum deleniti?</p>
+                                    
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <div class="head">I’m on my period. Should I reschedule my appointment?</div>
+                                <div class="head">3. Can I finish my course early?</div>
                                 <div class="content">
-                                    <p>No; as long as you are comfortable with it.
-                                    </p>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur nulla similique sunt dicta consequatur consectetur asperiores unde, quisquam ipsum deleniti?</p>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur nulla similique sunt dicta consequatur consectetur asperiores unde, quisquam ipsum deleniti?</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <div class="head">How long will I have to wait for my first appointment?
-                                </div>
+                                <div class="head">4. Can I change my course?</div>
                                 <div class="content">
-                                    <p>Most often appointments can be scheduled within 2 weeks.</p>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur nulla similique sunt dicta consequatur consectetur asperiores unde, quisquam ipsum deleniti?</p>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur nulla similique sunt dicta consequatur consectetur asperiores unde, quisquam ipsum deleniti?</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <div class="head">Do I need to have private health cover to see the specialist?
-                                </div>
+                                <div class="head">5. Can I transfer to another delivery location?</div>
                                 <div class="content">
-                                    <p>
-                                        No. Health Insurance unfortunately does not cover the costs of out of hospital expenses. But the advantage of having private health fund is that it may cover in hospital costs if you need any surgery.
-                                    </p>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur nulla similique sunt dicta consequatur consectetur asperiores unde, quisquam ipsum deleniti?</p>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur nulla similique sunt dicta consequatur consectetur asperiores unde, quisquam ipsum deleniti?</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <div class="head">What should I bring to my first consult?
-                                </div>
+                                <div class="head">6. Can I transfer to another provider?</div>
                                 <div class="content">
-                                    <ul>
-                                        <li>Medicare card</li>
-                                        <li>A referral from your General Practitioner</li>
-                                        <li>Any medications you are currently taking</li>
-                                        <li>Any surgery reports you have that may be related to your current problem</li>
-                                        <li>All&nbsp;reports available which have been&nbsp;done for both you and your partner for infertility patients.</li>
-                                    </ul>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur nulla similique sunt dicta consequatur consectetur asperiores unde, quisquam ipsum deleniti?</p>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur nulla similique sunt dicta consequatur consectetur asperiores unde, quisquam ipsum deleniti?</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <div class="head">How much does the consultation cost?
-                                </div>
+                                <div class="head">7. How can I change my class?</div>
                                 <div class="content">
-                                    <p>For further information on consultation fees and what days and times our Doctors are available please contact our rooms.</p>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur nulla similique sunt dicta consequatur consectetur asperiores unde, quisquam ipsum deleniti?</p>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur nulla similique sunt dicta consequatur consectetur asperiores unde, quisquam ipsum deleniti?</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <div class="head">Can you claim medicare on my behalf?
-                                </div>
+                                <div class="head">8. How can I request for COE extension?</div>
                                 <div class="content">
-                                    <p>Yes, we will submit your claim to Medicare on your behalf. To be eligible, you will need to have your Medicare card, a valid referral letter and credit card which we can swipe into the EFTPOS machine.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <div class="head">Do you have EFTPOS facility?
-                                </div>
-                                <div class="content">
-                                    <p>For your convenience we accept EFTPOS transactions by all major debit and credit cards as well as cash.</p>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <div class="head">What do I need to do before my surgery?
-                                </div>
-                                <div class="content">
-                                    <p>Our specialists will discuss pre and post-surgery instructions in detail with you.
-                                    </p>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur nulla similique sunt dicta consequatur consectetur asperiores unde, quisquam ipsum deleniti?</p>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur nulla similique sunt dicta consequatur consectetur asperiores unde, quisquam ipsum deleniti?</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div id="admission" class="mb-5">
+                        <h3 class="tabs-title">Admissions Related Questions</h3>
                         <div class="accordion">
                             <div class="accordion-item">
-                                <div class="head active">Accounting</div>
+                                <div class="head active">1. What is turn around time for OFFER LETTER AND coes?</div>
                                 <div class="content active">
-                                    <ul class="course-select-list">
-                                        <li>
-                                            <h5>.course-name Diploma of Accounting </h5>
-                                            .course-select-button
-                                        </li>
-                                    </ul>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus non ut sunt blanditiis id obcaecati vel qui cupiditate repellat.</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <div class="head">Business & Management</div>
-                                <div class="content">
-                                    <p>If you are a Medicare card holder and wish to claim a rebate from Medicare it is required to have a referral from either your GP or another specialist. GP referral is preferred as it lasts 12 months, whereas a specialist referral is valid for 3 months only.
-                                    </p>
-                                    <p>Patients who do not wish to claim Medicare benefits or do not have Medicare do not need a referral.
-                                    </p>
+                                <div class="head active">2. How can I see LLN test Results?</div>
+                                <div class="content active">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus non ut sunt blanditiis id obcaecati vel qui cupiditate repellat.</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <div class="head">Information Technology</div>
-                                <div class="content">
-                                    <p>No; as long as you are comfortable with it.
-                                    </p>
+                                <div class="head active">3. Can I pay lower deposit for COE?</div>
+                                <div class="content active">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus non ut sunt blanditiis id obcaecati vel qui cupiditate repellat.</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <div class="head">Project Management
-                                </div>
-                                <div class="content">
-                                    <p>Most often appointments can be scheduled within 2 weeks.</p>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <div class="head">Hospitality
-                                </div>
-                                <div class="content">
-                                    <p>
-                                        No. Health Insurance unfortunately does not cover the costs of out of hospital expenses. But the advantage of having private health fund is that it may cover in hospital costs if you need any surgery.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <div class="head">Event Managemnet
-                                </div>
-                                <div class="content">
-                                    <ul>
-                                        <li>Medicare card</li>
-                                        <li>A referral from your General Practitioner</li>
-                                        <li>Any medications you are currently taking</li>
-                                        <li>Any surgery reports you have that may be related to your current problem</li>
-                                        <li>All&nbsp;reports available which have been&nbsp;done for both you and your partner for infertility patients.</li>
-                                    </ul>
+                                <div class="head active">4. When can you make payments for eCOE’s?</div>
+                                <div class="content active">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus non ut sunt blanditiis id obcaecati vel qui cupiditate repellat.</p>
                                 </div>
                             </div>
                         </div>
@@ -172,85 +116,27 @@ include('include/header.php'); ?>
                         <h3 class="tabs-title">Accounts Related Questions</h3>
                         <div class="accordion">
                             <div class="accordion-item">
-                                <div class="head active">How do I make an appointment?</div>
+                                <div class="head active">1. When should I pay my dues?</div>
                                 <div class="content active">
-                                    <p>To make an appointment call and speak to our friendly reception staff</p>
-                                    <p>(08) 6118 8485 or send email to reception@orionspecialist.com.au</p>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus non ut sunt blanditiis id obcaecati vel qui cupiditate repellat.</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <div class="head">Do I need a referral?</div>
-                                <div class="content">
-                                    <p>If you are a Medicare card holder and wish to claim a rebate from Medicare it is required to have a referral from either your GP or another specialist. GP referral is preferred as it lasts 12 months, whereas a specialist referral is valid for 3 months only.
-                                    </p>
-                                    <p>Patients who do not wish to claim Medicare benefits or do not have Medicare do not need a referral.
-                                    </p>
+                                <div class="head active">2. Is there any penalty for late payment?</div>
+                                <div class="content active">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus non ut sunt blanditiis id obcaecati vel qui cupiditate repellat.</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <div class="head">I’m on my period. Should I reschedule my appointment?</div>
-                                <div class="content">
-                                    <p>No; as long as you are comfortable with it.
-                                    </p>
+                                <div class="head active">3. How can I request for extension payment due date?</div>
+                                <div class="content active">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus non ut sunt blanditiis id obcaecati vel qui cupiditate repellat.</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <div class="head">How long will I have to wait for my first appointment?
-                                </div>
-                                <div class="content">
-                                    <p>Most often appointments can be scheduled within 2 weeks.</p>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <div class="head">Do I need to have private health cover to see the specialist?
-                                </div>
-                                <div class="content">
-                                    <p>
-                                        No. Health Insurance unfortunately does not cover the costs of out of hospital expenses. But the advantage of having private health fund is that it may cover in hospital costs if you need any surgery.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <div class="head">What should I bring to my first consult?
-                                </div>
-                                <div class="content">
-                                    <ul>
-                                        <li>Medicare card</li>
-                                        <li>A referral from your General Practitioner</li>
-                                        <li>Any medications you are currently taking</li>
-                                        <li>Any surgery reports you have that may be related to your current problem</li>
-                                        <li>All&nbsp;reports available which have been&nbsp;done for both you and your partner for infertility patients.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <div class="head">How much does the consultation cost?
-                                </div>
-                                <div class="content">
-                                    <p>For further information on consultation fees and what days and times our Doctors are available please contact our rooms.</p>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <div class="head">Can you claim medicare on my behalf?
-                                </div>
-                                <div class="content">
-                                    <p>Yes, we will submit your claim to Medicare on your behalf. To be eligible, you will need to have your Medicare card, a valid referral letter and credit card which we can swipe into the EFTPOS machine.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <div class="head">Do you have EFTPOS facility?
-                                </div>
-                                <div class="content">
-                                    <p>For your convenience we accept EFTPOS transactions by all major debit and credit cards as well as cash.</p>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <div class="head">What do I need to do before my surgery?
-                                </div>
-                                <div class="content">
-                                    <p>Our specialists will discuss pre and post-surgery instructions in detail with you.
-                                    </p>
+                                <div class="head active">4. Is material fees refundable?</div>
+                                <div class="content active">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus non ut sunt blanditiis id obcaecati vel qui cupiditate repellat.</p>
                                 </div>
                             </div>
                         </div>
