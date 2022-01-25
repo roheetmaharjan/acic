@@ -103,7 +103,7 @@
 									<!-- active class -->
 									<li class="hoverTrigger"><a href="./agent.php"> Agents</a></li>
 									<li class="hoverTrigger"><a href="./campus-location.php">Campus Location</a></li>
-									<li class="hoverTrigger"><a href="#">FAQs</a></li>
+									<li class="hoverTrigger"><a href="./faq.php">FAQs</a></li>
 									<li class="hoverTrigger"><a href="#">Covid Updates </a></li>
 									<li class="hoverTrigger"><a href="#">News</a></li>
 									<li class="hoverTrigger"><a href="#">Career</a></li>

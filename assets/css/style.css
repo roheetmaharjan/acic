@@ -1990,12 +1990,12 @@ p {
 }
 
 .vertical-nav a {
-	font-size: 2.5rem;
+	font-size: 1.5rem;
 	display: block;
 	padding: 1.5rem 0;
-	color: #21A690;
-	font-weight: 500;
-	border-bottom: 2px solid #C5DBE6;
+	color: var(--second-color);
+	font-weight: 700;
+	border-bottom: 1px solid #C5DBE6;
 }
 
 .vertical-nav a:last-child {
@@ -2012,6 +2012,7 @@ p {
 	font-size: 3rem;
 	font-weight: 900;
 	margin-bottom: 4rem;
+	color: var(--second-color)
 }
 
 /* Accordion */
@@ -2027,27 +2028,26 @@ p {
 	-webkit-flex-direction: column;
 	-ms-flex-direction: column;
 	flex-direction: row;
-	justify-content: space-between;
 	width: 100%;
 	padding: 1rem 1rem 1rem 0;
-	color: #333;
+	color: var(--second-color);
 	cursor: pointer;
-	font-size: 2rem;
-	font-weight: 900;
-	border-bottom: 2px solid #C2D4DF;
+	font-size: 2.5rem;
+	font-weight: bold;
+	border-bottom: 2px solid var(--second-color);
 }
 
-.accordion .head::after {
-	content: "\f067";
-	float: right;
-	color: #21A690;
+.accordion .head::before {
+	content: "\f138";
+	color: var(--second-color);
 	font-family: "Font Awesome 5 Free";
-	font-size: 1.4rem;
+	font-size: 2.5rem;
 	text-rendering: auto;
+	margin-right: 1rem;
 }
 
-.accordion .head.active::after {
-	content: '\f068';
+.accordion .head.active::before {
+	content: '\f13a';
 }
 
 .accordion .content {
