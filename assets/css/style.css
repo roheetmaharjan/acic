@@ -1993,9 +1993,20 @@ p {
 	font-size: 1.5rem;
 	display: block;
 	padding: 1.5rem 0;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
 	color: var(--second-color);
 	font-weight: 700;
 	border-bottom: 1px solid #C5DBE6;
+}
+.vertical-nav a:after {
+	content: "\f105";
+	color: var(--second-color);
+	font-family: "Font Awesome 5 Free";
+	font-size: 1.5rem;
+	text-rendering: auto;
+	margin-right: 1rem;
 }
 
 .vertical-nav a:last-child {
