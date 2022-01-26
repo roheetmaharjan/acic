@@ -122,38 +122,48 @@
 													<span class="menu-item-title-wrap">About Us</span>
 												</a>
 											</li>
-											<li class="menu-item">
-												<div class="menu-item-name-cart">
+											<li class="menu-item has-sub-menu">
+												<div class="menu-item-name">
 													<a href="./campus-location.php">
 														<span class="menu-item-title-wrap">Future Students</span>
-														<i class="fas fa-angle-down fa-indicator"></i>
+														<span class="sub-menu-indicator"><i class="fas fa-angle-down"></i></span>
 													</a>
+												</div>
+												<div class="menu-sub-item">
+													<ul>
+														<li><a href="./services-facilities.php">Services and Facilities</a></li>
+														<li><a href="./application.php">Application</a></li>
+														<li><a href="./course.php">Courses</a></li>
+														<li><a href="./intakes-dates.php">Indake Dates</a></li>
+														<li><a href="">Living in Australia</a></li>
+														<li><a href="">Important Information</a></li>
+													</ul>
 												</div>
 											</li>
 											<li class="menu-item">
-												<div class="menu-item-name-cart">
+												<div class="menu-item-name">
 													<a href="">
 														<span class="menu-item-title-wrap">Current Students</span>
 													</a>
 												</div>
 											</li>
 											<li class="menu-item">
-												<div class="menu-item-name-cart">
-													<a href="">
+												<div class="menu-item-name">
+													<a href="./course.php">
 														<span class="menu-item-title-wrap">Courses       </span>
 													</a>
 												</div>
 											</li>
 											<li class="menu-item">
-												<div class="menu-item-name-cart">
+												<div class="menu-item-name">
 													<a href="">
 														<span class="menu-item-title-wrap">Download       </span>
 													</a>
 												</div>
 											</li>
 											<li class="menu-item">
-												<div class="menu-item-name-cart">
-													<a href="offerings.php">
+												<div class="menu-item-name">
+													<a href="">
 														<span class="menu-item-title-wrap">Contact us</span>
 													</a>
 												</div>

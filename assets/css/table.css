@@ -33,3 +33,8 @@
     margin-bottom: 0;
     max-width: 12rem;
 }
+.table tfoot tr td{
+    background-color: var(--second-color);
+    text-align: center;
+    color: #fff;
+}

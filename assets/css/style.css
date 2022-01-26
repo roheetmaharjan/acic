@@ -1303,7 +1303,45 @@ p {
 	clear: both;
 	display: block;
 }
-
+#header .sub-menu-indicator{
+	margin-left: 0.5rem;
+}
+#header .menu-item.has-sub-menu .menu-sub-item ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#header .nav-ul .menu-item.has-sub-menu .menu-sub-item li a {
+    font-weight: bold;
+    color: var(--second-color);
+    padding: 1rem 2rem;
+	transition: 0.3s all ease;
+}
+#header .nav-ul .menu-item.has-sub-menu .menu-sub-item li a:hover {
+    color: var(--primary-color);
+    background-color: var(--light-background);
+	text-decoration: none;
+}
+#header .menu-item.has-sub-menu .menu-sub-item {
+    position: absolute;
+    top: 130%;
+    left: 0;
+    min-width: 250px;
+    max-width: 250px;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 0 1px #333;
+    padding: 1.5rem 0;
+	transition: 0.2s all ease;
+	opacity: 0;
+	visibility: hidden;
+}
+#header .menu-item.has-sub-menu:hover .menu-sub-item {
+    position: absolute;
+    top: 110%;
+	opacity: 1;
+	visibility: visible;
+}
 @media(max-width: 992px) {
 	#header .apply-btn {
 		margin-right: 8rem;
@@ -2139,49 +2177,64 @@ p {
 }
 
 .course-card {
-	border: 1px solid #C5DBE6;
-	margin-bottom: 3rem;
+	border: none;
+	margin-bottom: 4rem;
+	background-color: var(--light-background);
 }
 
 .course-card .card-header {
-	background-color: #EEF9FF;
-	padding: 3rem;
+	background-color: transparent;
+	padding: 2rem;
 	text-align: left;
-	border-bottom: 1px solid #C5DBE6;
+	border-bottom: 1px solid var(--light-background);
 }
 
 .course-card .card-header .card-title {
-	color: #21A690;
+	color: var(--second-color);
 	text-align: left;
 	font-size: 2rem;
 	max-width: 50rem;
-	font-weight: 900;
+	font-weight: bold;
 	width: 100%;
 	margin-bottom: 0;
 }
 
+.course-card .card-footer {
+	padding: 0;
+	border: none;
+}
 .course-card .card-body {
-	padding: 3rem;
+	padding: 0 2rem 2rem 2rem;
 	text-align: left;
-	background-color: #ffffff;
+	background-color: transparent;
 }
 
 .course-card .course-detail-title {
-	font-size: 1.2rem;
-	text-transform: uppercase;
-	margin-bottom: 1rem;
+	font-size: 1.5rem;
+	margin: 1rem 0;
 	font-weight: 800;
-	color: #333333;
+	color: var(--second-color);
+	float: left
 }
 
-.course-detail-description {
-	font-size: 1.2rem;
+.course-card .course-detail-description {
+	font-size: 1.5rem;
 	text-transform: capitalize;
-	margin-bottom: 1rem;
-	color: #333333;
-	margin-bottom: 1rem;
+	margin: 1rem 0;
+	color: var(--second-color);
+	text-align: right;
+	float: right
 }
-
+.course-card .col-md-12:before,
+.course-card .col-md-12:after{
+	content: '';
+	display: block;
+	clear: both
+}
+.course-card .course-detail-value{
+	text-align: right;
+	font-size: 1.5rem;
+}
 /* How to step */
 
 .how-to-steps {
@@ -3145,4 +3198,8 @@ p {
 		padding-right: 0;
 		padding-left: 4rem;
 	}
+}
+/* Term Item */
+.term-item{
+	margin-bottom: 6rem;
 }
