@@ -125,7 +125,8 @@
 											<li class="menu-item">
 												<div class="menu-item-name-cart">
 													<a href="./campus-location.php">
-														<span class="menu-item-title-wrap">Future Students       </span>
+														<span class="menu-item-title-wrap">Future Students</span>
+														<i class="fas fa-angle-down fa-indicator"></i>
 													</a>
 												</div>
 											</li>
