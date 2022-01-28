@@ -35,7 +35,7 @@
 	<link rel="stylesheet" href="assets/css/table.css">
 	<link rel="stylesheet" href="assets/css/form.css">
 	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="stylesheet" href="assets/css/pages.css">
+	<!-- <link rel="stylesheet" href="assets/css/pages.css"> -->
 	<link rel="stylesheet" href="assets/css/banner.css">
 	<link rel="stylesheet" href="assets/css/responsive.css">
 
@@ -135,16 +135,26 @@
 														<li><a href="./application.php">Application</a></li>
 														<li><a href="./course.php">Courses</a></li>
 														<li><a href="./intakes-dates.php">Indake Dates</a></li>
-														<li><a href="">Living in Australia</a></li>
-														<li><a href="">Important Information</a></li>
+														<li><a href="./living-australia.php">Living in Australia</a></li>
+														<li><a href="./important-info.php">Important Information</a></li>
 													</ul>
 												</div>
 											</li>
-											<li class="menu-item">
+											<li class="menu-item has-sub-menu">
 												<div class="menu-item-name">
-													<a href="">
+													<a href="./campus-location.php">
 														<span class="menu-item-title-wrap">Current Students</span>
+														<span class="sub-menu-indicator"><i class="fas fa-angle-down"></i></span>
 													</a>
+												</div>
+												<div class="menu-sub-item">
+													<ul>
+														<li><a href="./">USI Registration</a></li>
+														<li><a href="./resources.php">Resource</a></li>
+														<li><a href="">Courses</a></li>
+														<li><a href="">Student Portal</a></li>
+														<li><a href="./student-support.php">Student Support</a></li>
+													</ul>
 												</div>
 											</li>
 											<li class="menu-item">
@@ -163,7 +173,7 @@
 											</li>
 											<li class="menu-item">
 												<div class="menu-item-name">
-													<a href="">
+													<a href="./contact.php">
 														<span class="menu-item-title-wrap">Contact us</span>
 													</a>
 												</div>

@@ -193,7 +193,7 @@
 	font-size: 1.5rem;
 	margin-bottom: 0;
 	padding: 0 0.5rem;
-	border-bottom: 2px solid #fff;
+	border-bottom: 2px solid var(--light-background);
 	transition: 0.2s all ease;
 	z-index: 11;
 }
