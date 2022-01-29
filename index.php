@@ -44,38 +44,42 @@
 <!-- ========== SECTION CAMPUS ================= -->
 <section id="box-with-bg-img" class="section-padding box-with-bg-img-wrp pt-0">
 	<div class="container">
-		<h1 class="section-title">Our Campuses</h1>
-		<div class="row">
-			<div class="col-sm-12 col-md-6">
-				<a href="#">
-					<div class="box-with-bg-img">
-						<figure>
-							<img src="./assets/img/parramatta.jpg" alt="">
-						</figure>
-						<div class="box-with-bg-img-title">
-							<h4>Parramatta Campus</h4>
-							<p>Suite 1, Level 2, 17-21 Macquarie St, Parramatta, New South Wales 2150</p>
-						</div>
+		<div class="nm-background">
+			<div>
+				<h1 class="section-title">Our Campuses</h1>
+				<div class="row justify-content-center">
+					<div class="col-sm-12 col-md-5">
+						<a href="#">
+							<div class="box-with-bg-img">
+								<figure>
+									<img src="./assets/img/parramatta.jpg" alt="">
+								</figure>
+								<div class="box-with-bg-img-title">
+									<h4>Parramatta Campus</h4>
+									<p>Suite 1, Level 2, 17-21 Macquarie St, Parramatta, New South Wales 2150</p>
+								</div>
+							</div>
+						</a>
 					</div>
-				</a>
-			</div>
-			<div class="col-sm-12 col-md-6">
-				<a href="#">
-					<div class="box-with-bg-img">
-						<figure>
-							<img src="./assets/img/darwin-campus.jpg" alt="">
-						</figure>
-						<div class="box-with-bg-img-title">
-							<h4>Darwin Campuse</h4>
-							<p>43 Cavenagh Street, Darwin Northern Territory 0800</p>
-						</div>
+					<div class="col-sm-12 col-md-5">
+						<a href="#">
+							<div class="box-with-bg-img">
+								<figure>
+									<img src="./assets/img/darwin-campus.jpg" alt="">
+								</figure>
+								<div class="box-with-bg-img-title">
+									<h4>Darwin Campuse</h4>
+									<p>43 Cavenagh Street, Darwin Northern Territory 0800</p>
+								</div>
+							</div>
+						</a>
 					</div>
-				</a>
+				</div>
+				<div class="campus-btn-wrp">
+					<a href="#" class="btn btn-danger">Explore Courses</a>
+					<a href="#" class="btn btn-danger">Download Brochure</a>
+				</div>
 			</div>
-		</div>
-		<div class="campus-btn-wrp">
-			<a href="#" class="btn btn-danger">Explore Courses</a>
-			<a href="#" class="btn btn-danger">Download Brochure</a>
 		</div>
 	</div>
 </section>
@@ -134,6 +138,7 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-12 col-md-7">
+				<a href="#">
 				<div class="news-block news-block-with-text-overlay">
 					<figure>
 						<img src="./assets/img/news1.jpg" alt="">
@@ -143,8 +148,10 @@
 						<h4>Outstanding A Level Result for 2021, Read our full Result Exclusive</h4>
 					</div>
 				</div>
+				</a>
 			</div>
 			<div class="col-sm-12 col-md-5">
+				<a href="#">
 				<div class="news-block">
 					<figure>
 						<img src="./assets/img/news2.jpg" alt="">
@@ -154,6 +161,8 @@
 						<h4>ACIC TikTok CookOff</h4>
 					</div>
 				</div>
+				</a>
+				<a href="#">
 				<div class="news-block">
 					<figure>
 						<img src="./assets/img/news3.jpg" alt="">
@@ -163,6 +172,7 @@
 						<h4>ACIC TikTok CookOff</h4>
 					</div>
 				</div>
+				</a>
 			</div>
 		</div>
 	</div>
