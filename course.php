@@ -36,7 +36,7 @@ include('include/header.php'); ?>
                             </div>
                         </div>
                         <div class="card-footer">
-                            <a href="" class="btn btn-danger btn-block btn-lg">Read more</a>
+                            <a href="./course-detail.php" class="btn btn-danger btn-block btn-lg">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ include('include/header.php'); ?>
                             </div>
                         </div>
                         <div class="card-footer">
-                            <a href="" class="btn btn-danger btn-block btn-lg">Read more</a>
+                            <a href="./course-detail.php" class="btn btn-danger btn-block btn-lg">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@ include('include/header.php'); ?>
                             </div>
                         </div>
                         <div class="card-footer">
-                            <a href="" class="btn btn-danger btn-block btn-lg">Read more</a>
+                            <a href="./course-detail.php" class="btn btn-danger btn-block btn-lg">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -114,7 +114,7 @@ include('include/header.php'); ?>
                             </div>
                         </div>
                         <div class="card-footer">
-                            <a href="" class="btn btn-danger btn-block btn-lg">Read more</a>
+                            <a href="./course-detail.php" class="btn btn-danger btn-block btn-lg">Read more</a>
                         </div>
                     </div>
                 </div>

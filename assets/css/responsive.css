@@ -82,6 +82,17 @@
     .box-with-text {
         margin-top: 2rem;
     }
+    .footer-top .row > [class*="col-"] {
+        padding: 5rem 3rem;
+    }
+    .footer-top .row > div:nth-child(3),
+    .footer-top .row > div:nth-child(4) {
+        border-top: 1px solid #4f5068;
+    }
+    .footer-nav ul {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
 }
 @media(max-width: 414px) {
     div.our_p {
