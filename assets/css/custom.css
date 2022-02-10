@@ -26,9 +26,7 @@
 .testimonial-item .testimonial-content,
 .testimonial-item .testimonial-image-wrp figure{
 	height: 600px;
-}
-
-nav.scroll-to-fixed-fixed .menu-list-items .menu-nav-right, 
+} 
 nav.scroll-to-fixed-fixed .builder-item {
     display: none !important;
 }
@@ -60,7 +58,7 @@ ul.menu-links>li.current-menu-item a{
 }
 
 .scroll-to-fixed-fixed{
-	box-shadow: 0 0 2px #eee;
+	box-shadow: none;
 }
 
 .btn-outline-light, .btn-outline-light:hover {
