@@ -1,0 +1,240 @@
+/* custom acic css*/
+#header .mega-menu.scroll-to-fixed-fixed, #header .mega-menu.remove-fixed{
+	background-color: transparent;	
+}
+
+#header .mega-menu.scroll-to-fixed-fixed, #header .mega-menu.scroll-to-fixed-fixed {
+	background-color: #050622;
+}
+
+
+#header .mega-menu.remove-fixed>.menu-list-items, #header .mega-menu.scroll-to-fixed-fixed>.menu-list-items{
+	background-color: transparent;
+}
+
+#header .mega-menu.scroll-to-fixed-fixed .nav-ul li a, #header .mega-menu.scroll-to-fixed-fixed>.menu-list-items .menu-links>li>a, #header .mega-menu.scroll-to-fixed-fixed>.menu-list-items .menu-search-bar i.fa.fa-search, #header .mega-menu.remove-fixed>.menu-list-items .menu-links>li>a, #header .mega-menu.remove-fixed>.menu-list-items .menu-search-bar i.fa.fa-search{
+	color: #fff;
+}
+
+#header .search-icon a{
+	position: absolute;
+	color: #fff;
+	cursor: pointer;
+	right: 0;
+}
+
+.testimonial-item .testimonial-content,
+.testimonial-item .testimonial-image-wrp figure{
+	height: 600px;
+}
+
+nav.scroll-to-fixed-fixed .menu-list-items .menu-nav-right, 
+nav.scroll-to-fixed-fixed .builder-item {
+    display: none !important;
+}
+
+#header .menu-nav-right{
+	max-width: 78%;
+}
+
+.section-title-with-bg span {
+    background: #B7BFD1;
+    padding: 0.625rem 1.125rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    color: #fff;
+    font-size: 3.0rem;
+}
+
+.page-title{
+	background-position: center;
+    background-size: cover;
+}
+
+ul.menu-links>li.current-menu-item a{
+	text-decoration: underline;
+}
+
+#header .nav-ul li a{
+	text-transform: uppercase;
+}
+
+.scroll-to-fixed-fixed{
+	box-shadow: 0 0 2px #eee;
+}
+
+.btn-outline-light, .btn-outline-light:hover {
+    color: #BF5B5B;
+    border-color: #BF5B5B;
+}
+
+.radial-green-section{
+	background-image: radial-gradient(ellipse at left top, #ed4637 0%, #BF5B5B 100%)
+}
+
+.box-with-bg-img.full-width figure{
+	min-height: 50rem;
+}
+
+.campus-location .the_content h1,
+.campus-location .the_content h2,
+.campus-location .the_content h3,
+.campus-location .the_content h4,
+.campus-location .the_content h5,
+.campus-location .the_content h6{
+	margin-bottom: 8rem;
+}
+
+.video-gallery .video-gallery-img{
+	max-height: 38rem;
+}
+
+.news-block .box-with-bg-img-title h4.news-title{
+	height: 10rem;
+}
+.news-block h4{
+	font-size: 2.3rem;
+	height: 3.4rem;
+	overflow: hidden;
+}
+
+.news-block figure{
+	margin-bottom: 2.2rem;
+}
+
+.news-block.news-block-with-text-overlay.sm figure {
+	min-height: 49rem;
+}
+.news .view_all a{
+	margin-top: 6.8rem;
+}
+
+.article-list li a:hover{
+	color: var(--second-color);
+}
+
+.job-box .job-title{
+	height: 7.6rem;
+	overflow: hidden;
+}
+
+.w-60{
+	width: 60% !important;
+}
+.section-sub-title{
+	font-weight: 900;
+	margin-bottom: 5rem;
+	color: var(--primary-color);
+}
+
+.company-location{
+	border-top: 2px solid #F1F5FF;
+}
+
+.competency table{
+	width: 100%;
+}
+.competency table tr{
+	background-color: #F9FBFF;
+}
+.competency table tr:nth-child(2){
+	background-color: #F1F5FF;
+}
+.competency table tr td{
+	padding: 2rem;
+}
+
+.page-title .breadcrumb{
+	font-size: 1.6rem;
+}
+
+.study_duration{
+	width: 8ch;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.course-card .card-header h4.card-title{
+	height: 8rem;
+	overflow: hidden;
+}
+
+#header .mega-menu>.menu-list-items{
+	margin-bottom: 10px;
+}
+
+#header .nav-ul .menu-item.menu-item-has-children .sub-menu li a{
+	text-transform: none;
+}
+
+#header .secondary-menu{
+	display: none;
+	flex-direction: row-reverse;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 2rem;
+	margin-top: 2.5rem;
+	padding-right: 5rem;
+	position: relative;
+}
+
+#header nav.scroll-to-fixed-fixed .secondary-menu{
+	display: flex;
+	display: -webkit-flex;
+}
+
+#header .secondary-menu .nav-ul li a{
+	text-transform: none;
+}
+
+.section-campus{
+	background:  linear-gradient( #fff 30%, #F1F5FF 0%)
+}
+
+/* agent search input */
+.has-search .form-control {
+    padding-left: 3.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    left: 1rem;
+    top: 2.1rem;
+    font-size: 1.5rem;
+}
+
+/* campus page */
+.box-with-bg-img.has-right-arrow .arrow-right{
+	display: none;
+}
+.campuse-item:hover .box-with-bg-img.has-right-arrow .arrow-right{
+	display: block;
+} 
+
+.mt-10{
+	margin-top: 10rem ;
+}
+
+@media(max-width: 640px){
+	#header nav.scroll-to-fixed-fixed .secondary-menu{
+		display: none !important;
+	} 
+	nav.scroll-to-fixed-fixed .builder-item {
+	    display: none !important;
+	}
+	nav.scroll-to-fixed-fixed .menu-list-items .menu-nav-right{
+		display: block !important;
+	}	
+
+	#header .mega-menu.scroll-to-fixed-fixed .nav-ul li a, #header .mega-menu.scroll-to-fixed-fixed>.menu-list-items .menu-links>li>a, #header .mega-menu.scroll-to-fixed-fixed>.menu-list-items .menu-search-bar i.fa.fa-search, #header .mega-menu.remove-fixed>.menu-list-items .menu-links>li>a, #header .mega-menu.remove-fixed>.menu-list-items .menu-search-bar i.fa.fa-search{
+		color: #333;
+	}
+}

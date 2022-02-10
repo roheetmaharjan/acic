@@ -38,6 +38,7 @@
 	<!-- <link rel="stylesheet" href="assets/css/pages.css"> -->
 	<link rel="stylesheet" href="assets/css/banner.css">
 	<link rel="stylesheet" href="assets/css/responsive.css">
+	<link rel="stylesheet" href="assets/css/custom.css">
 
 
 	<!-- Plugins -->
