@@ -9,7 +9,7 @@
 
 	<title>Australian City International College </title>
 
-	<link href="http://fonts.cdnfonts.com/css/helvetica-2?styles=65655,65656,65653,65654,65657,65658,65659,65660" rel="stylesheet">
+	<link href="assets/css/fonts.css" rel="stylesheet">
 	<!-- Bootstrap CSS -->
 	<link href="assets/plugins/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css" />
 

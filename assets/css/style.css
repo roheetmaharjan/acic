@@ -63,19 +63,30 @@ ul {
 	justify-content: center;
 	margin-top: 3rem;
 }
-.page-link {
-    padding: 1.5rem 2rem;
+.pagination .page-link {
+    padding: 0 1rem;
     color: var(--second-color);
     background-color: var(--light-background);
     border-color: var(--light-background);
     margin: 0 0.5rem;
     border-radius: 30px !important;
-	transition: 0.3s all ease;
+    width: auto;
+    height: 3rem;
+    line-height: 3rem;
+    transition: 0.3s all ease;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
 }
-.page-link:hover{
+.pagination .page-link:hover:not(.active){
     color: #fff;
     background-color: var(--second-color);
     border-color: var(--second-color);
+}
+.pagination .page-link.active {
+	font-weight: bold;
+	background-color: transparent;
+	border-color: transparent
 }
 /* Negative margin */
 .nm-10{
@@ -3358,9 +3369,10 @@ p {
 .list-item-with-drop-arrow li::before{
 	display: inline-block;
 	margin-right: 1.5rem;
-	content: "\f105";
 	text-rendering: auto;
-	font-family: "Font Awesome 5 Free";
+	font-family: "Font Awesome 5 Free"; 
+	font-weight: 900; 
+	content: "\f105";
 }
 .list-item-with-drop-arrow li {
 	display: flex;
