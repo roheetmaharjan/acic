@@ -1,3 +1,75 @@
+#header .menu-item.menu-item-has-children {
+    position: relative;
+}
+#header .menu-item.menu-item-has-children > a:after {
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-size: 1.5rem;
+    text-rendering: auto;
+    margin-left: 1rem;
+}
+#header .sub-menu .menu-item.menu-item-has-children > a:after {
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-size: 1.5rem;
+    text-rendering: auto;
+    margin-left: 1rem;
+}
+
+#header .primary-menu-ul.nav-ul ul {
+  min-width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: -999em;
+  left: -999em;
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1.5rem 0;
+  /* transition: 0.2s all ease; */
+}
+#header .primary-menu-ul.nav-ul li {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+}
+#header .primary-menu-ul.nav-ul li.focus > ul, .primary-menu-ul.nav-ul li:hover > ul {
+  top: auto;
+  left: auto;
+}
+#header .primary-menu-ul.nav-ul li li {
+  display: block;
+}
+#header .primary-menu-ul.nav-ul li li.focus > ul,#header .primary-menu-ul.nav-ul li li:hover > ul {
+  left: 100%;
+  top: 0;
+}
+/* Video Play pause icon*/
+.hero-video-banner .pause-icon.play-icon::before {
+    left: 22px;
+}
+.hero-video-banner .pause-icon {
+    box-shadow: none;
+    border: none;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    border: 2px solid #fff;
+    position: relative;
+    transition: 0.3s all ease-in-out;
+    z-index: 2;
+}   
+.hero-video-banner .pause-icon::before {
+    left: 21px
+}
+.hero-video-banner .pause-icon::after {
+    right: 20px;
+    left: inherit;
+}
 @media(max-width: 1440px) {
     html {
         font-size: 52.5%
@@ -92,6 +164,48 @@
     .footer-nav ul {
         flex-wrap: wrap;
         justify-content: flex-start;
+    }
+    .course-program-wrp .course-program-search-box{
+        position: inherit
+    }
+    .course-program-wrp .course-program-img-wrp {
+        padding-right: 0;
+        display: none;
+    }
+    .course-program-wrp .course-program-img {
+        margin-bottom: 0;
+    }
+    .course-program-wrp .course-program-search-box {
+        position: initial;
+        top: initial;
+        transform: inherit;
+        left: 0;
+        width: 100%;
+    }
+    .course-program-wrp {
+        flex-direction: column;
+    }
+    .box-with-bg-img {
+        margin-bottom: 3rem;
+    }
+    .testimonial-item .testimonial-image-wrp {
+        display: none;
+    }
+    .with-left-sidebar>.section-padding>.container>.row>.col-3:before {
+        height: calc(100% - -8rem);
+        background-color: transparent;
+    }
+    .with-left-sidebar .sidebar {
+        margin-bottom: 10rem;
+    }
+    .inner-page.with-left-sidebar .container .row {
+        flex-direction: column-reverse;
+    }
+    .inner-page .ml-6 {
+        margin-left: 0 !important;
+    }
+    .course-nav {
+        margin-bottom: 5rem;
     }
 }
 @media(max-width: 414px) {
