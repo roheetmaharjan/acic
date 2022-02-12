@@ -17,17 +17,16 @@
 }
 
 #header .search-icon a{
-	position: absolute;
 	color: #fff;
 	cursor: pointer;
-	right: 0;
 }
 
 .testimonial-item .testimonial-content,
 .testimonial-item .testimonial-image-wrp figure{
 	height: 600px;
 } 
-nav.scroll-to-fixed-fixed .builder-item {
+nav.scroll-to-fixed-fixed .builder-item,
+#header nav.scroll-to-fixed-fixed .menu-nav-right {
     display: none !important;
 }
 
@@ -67,7 +66,7 @@ ul.menu-links>li.current-menu-item a{
 }
 
 .radial-green-section{
-	background-image: radial-gradient(ellipse at left top, #ed4637 0%, #BF5B5B 100%)
+	background-image: radial-gradient(ellipse at left top, #050622 0%, #050622 100%)
 }
 
 .box-with-bg-img.full-width figure{
@@ -179,6 +178,7 @@ ul.menu-links>li.current-menu-item a{
 #header nav.scroll-to-fixed-fixed .secondary-menu{
 	display: flex;
 	display: -webkit-flex;
+	position: relative;
 }
 
 #header .secondary-menu .nav-ul li a{
@@ -228,7 +228,7 @@ ul.menu-links>li.current-menu-item a{
 	nav.scroll-to-fixed-fixed .builder-item {
 	    display: none !important;
 	}
-	nav.scroll-to-fixed-fixed .menu-list-items .menu-nav-right{
+	#header nav.scroll-to-fixed-fixed .menu-list-items .menu-nav-right{
 		display: block !important;
 	}	
 

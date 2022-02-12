@@ -34,6 +34,7 @@
 	<!-- Custom Css -->
 	<link rel="stylesheet" href="assets/css/table.css">
 	<link rel="stylesheet" href="assets/css/form.css">
+	<link rel="stylesheet" href="assets/css/menu.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 	<!-- <link rel="stylesheet" href="assets/css/pages.css"> -->
 	<link rel="stylesheet" href="assets/css/banner.css">
@@ -82,7 +83,7 @@
 		<div class="navbar-absolute-top">
 			<div class="header-top clearfix">
 				<div class="container">
-					<p>COVID-19 GUIDANCE:  Please visit acicollege.edu.au/covid-19 for the latest on COVID-19 policies and information.</p>
+					<p>COVID-19 GUIDANCE: Please visit acicollege.edu.au/covid-19 for the latest on COVID-19 policies and information.</p>
 				</div>
 			</div>
 
@@ -92,23 +93,83 @@
 					<div class="menu-list-items ">
 						<div class="container">
 							<!-- menu logo -->
-							<a href="index.php" class="menu-logo">
-								<img src="assets/img/logo.svg" class="logo-white" alt="">
-								<img src="assets/img/logo.svg" class="logo-main" alt="">
+							<a href="https://acic.searchsolutionspl.com" class="menu-logo">
+								<img src="https://acic.searchsolutionspl.com/wp-content/themes/acic/assets/images/logo.svg" class="logo-white" alt="">
+								<img src="https://acic.searchsolutionspl.com/wp-content/themes/acic/assets/images/logo.svg" class="logo-main" alt="">
 							</a>
 							<div class="menu-mobile-collapse-trigger"><span></span></div>
-							<div class="menu-nav-right text-right float-right">
-								<div class="apply-btn"><a href="#application-form" data-toggle="modal" class="btn btn-danger">Apply Now</a></div>
-								<!-- menu links -->
-								<ul class="menu-links menu-links-align-right">
+							<div class="responsive-menu-wrp">
+								<div class="menu-nav-right text-right float-right">
+									<div class="apply-btn"><a href="#application-form" data-toggle="modal" class="btn btn-danger">Apply Now</a></div>
+									<!-- menu links -->
 									<!-- active class -->
-									<li class="hoverTrigger"><a href="./agent.php"> Agents</a></li>
-									<li class="hoverTrigger"><a href="./campus-location.php">Campus Location</a></li>
-									<li class="hoverTrigger"><a href="./faq.php">FAQs</a></li>
-									<li class="hoverTrigger"><a href="./covid.php">Covid Updates </a></li>
-									<li class="hoverTrigger"><a href="./news.php">News</a></li>
-									<li class="hoverTrigger"><a href="#">Career</a></li>
-								</ul>
+									<div class="menu-top-menu-container">
+										<ul id="menu-top-menu" class="menu-links menu-links-align-right">
+											<li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="https://acic.searchsolutionspl.com/representative-agents/">Agents</a></li>
+											<li id="menu-item-71" class="menu-item menu-item-type-post_type_archive menu-item-object-campus menu-item-71"><a href="https://acic.searchsolutionspl.com/campus/">Campus Location</a></li>
+											<li id="menu-item-108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a href="https://acic.searchsolutionspl.com/faqs/">FAQs</a></li>
+											<li id="menu-item-111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="https://acic.searchsolutionspl.com/covid-19/">COVID Updates</a></li>
+											<li id="menu-item-146" class="menu-item menu-item-type-post_type_archive menu-item-object-news menu-item-146"><a href="https://acic.searchsolutionspl.com/news/">News</a></li>
+											<li id="menu-item-150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-150"><a href="https://acic.searchsolutionspl.com/career/">Career</a></li>
+										</ul>
+									</div>
+								</div>
+								<!-- secondary menu -->
+								<div class="secondary-menu text-right float-right">
+									<div class="item--menu">
+										<div class="nv-nav-wrap">
+											<div class="menu-secondary-menu-container">
+												<ul id="menu-secondary-menu" class="primary-menu-ul nav-ul">
+													<li id="menu-item-160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-160"><a href="https://acic.searchsolutionspl.com/about-us/">About Us</a></li>
+													<li id="menu-item-186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-186"><a href="https://acic.searchsolutionspl.com/future-students/">Future Students</a>
+														<ul class="sub-menu">
+															<li id="menu-item-187" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-187"><a href="https://acic.searchsolutionspl.com/future-students/services-and-facilities/">Services and Facilities</a></li>
+															<li id="menu-item-303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-303"><a href="https://acic.searchsolutionspl.com/future-students/application/">Application</a></li>
+															<li id="menu-item-237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="https://acic.searchsolutionspl.com/all-courses/">Courses</a></li>
+															<li id="menu-item-191" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-191"><a href="https://acic.searchsolutionspl.com/future-students/living-in-australia/">Living In Australia</a></li>
+															<li id="menu-item-306" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-306"><a href="https://acic.searchsolutionspl.com/future-students/important-information/">Important information</a></li>
+														</ul>
+													</li>
+													<li id="menu-item-194" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-194"><a href="https://acic.searchsolutionspl.com/current-students/">Current Students</a>
+														<ul class="sub-menu">
+															<li id="menu-item-307" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-307"><a href="#">USI Registration</a></li>
+															<li id="menu-item-201" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-201"><a href="https://acic.searchsolutionspl.com/current-students/resources/">Resources</a></li>
+															<li id="menu-item-308" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-308"><a href="#">Student Portal</a></li>
+															<li id="menu-item-197" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-197"><a href="https://acic.searchsolutionspl.com/current-students/student-support/">Student Support</a></li>
+														</ul>
+													</li>
+													<li id="menu-item-238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-238"><a href="https://acic.searchsolutionspl.com/all-courses/">Courses</a>
+														<ul class="sub-menu">
+															<li id="menu-item-310" class="menu-item menu-item-type-taxonomy menu-item-object-course-category menu-item-has-children menu-item-310"><a href="https://acic.searchsolutionspl.com/course-category/accounting/">Accounting</a>
+																<ul class="sub-menu">
+																	<li id="menu-item-313" class="menu-item menu-item-type-post_type menu-item-object-acic-course menu-item-313"><a href="https://acic.searchsolutionspl.com/acic-course/certificate-i-in-financial-analysis/">Certificate I in Financial Analysis</a></li>
+																	<li id="menu-item-314" class="menu-item menu-item-type-post_type menu-item-object-acic-course menu-item-314"><a href="https://acic.searchsolutionspl.com/acic-course/certificate-iv-in-entrepreneurship-and-new-business/">Certificate IV in Entrepreneurship and New Business</a></li>
+																	<li id="menu-item-317" class="menu-item menu-item-type-post_type menu-item-object-acic-course menu-item-317"><a href="https://acic.searchsolutionspl.com/acic-course/certificate-iii-in-entrepreneurship-and-new-business/">Certificate III in Entrepreneurship and New Business</a></li>
+																</ul>
+															</li>
+															<li id="menu-item-311" class="menu-item menu-item-type-taxonomy menu-item-object-course-category menu-item-has-children menu-item-311"><a href="https://acic.searchsolutionspl.com/course-category/business-management/">Business &amp; Management</a>
+																<ul class="sub-menu">
+																	<li id="menu-item-315" class="menu-item menu-item-type-post_type menu-item-object-acic-course menu-item-315"><a href="https://acic.searchsolutionspl.com/acic-course/certificate-i-in-entrepreneurship-and-new-business/">Certificate I in Entrepreneurship and New Business</a></li>
+																</ul>
+															</li>
+															<li id="menu-item-312" class="menu-item menu-item-type-taxonomy menu-item-object-course-category menu-item-has-children menu-item-312"><a href="https://acic.searchsolutionspl.com/course-category/information-technology/">Information Technology</a>
+																<ul class="sub-menu">
+																	<li id="menu-item-316" class="menu-item menu-item-type-post_type menu-item-object-acic-course menu-item-316"><a href="https://acic.searchsolutionspl.com/acic-course/certificate-iv-in-information-technology-networking/">Certificate IV in Information Technology (Networking)</a></li>
+																</ul>
+															</li>
+														</ul>
+													</li>
+													<li id="menu-item-253" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-253"><a href="https://acic.searchsolutionspl.com/current-students/resources/">Download</a></li>
+													<li id="menu-item-256" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-256"><a href="https://acic.searchsolutionspl.com/contact-us/">Contact Us</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="search-icon">
+										<a href="/?s"><i class="fas fa-search"></i></a>
+									</div>
+	
+								</div>
 							</div>
 						</div>
 					</div>
@@ -117,73 +178,55 @@
 							<div class="search-menu-wrp">
 								<div class="item--menu">
 									<div class="nv-nav-wrap">
-										<ul id="nv-primary-navigation-main" class="primary-menu-ul nav-ul">
-											<li class="menu-item">
-												<a href="./about.php">
-													<span class="menu-item-title-wrap">About Us</span>
-												</a>
-											</li>
-											<li class="menu-item has-sub-menu">
-												<div class="menu-item-name">
-													<a href="./campus-location.php">
-														<span class="menu-item-title-wrap">Future Students</span>
-														<span class="sub-menu-indicator"><i class="fas fa-angle-down"></i></span>
-													</a>
-												</div>
-												<div class="menu-sub-item">
-													<ul>
-														<li><a href="./services-facilities.php">Services and Facilities</a></li>
-														<li><a href="./application.php">Application</a></li>
-														<li><a href="./course.php">Courses</a></li>
-														<li><a href="./intakes-dates.php">Indake Dates</a></li>
-														<li><a href="./living-australia.php">Living in Australia</a></li>
-														<li><a href="./important-info.php">Important Information</a></li>
+										<div class="menu-secondary-menu-container">
+											<ul id="menu-secondary-menu-1" class="primary-menu-ul nav-ul">
+												<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-160"><a href="https://acic.searchsolutionspl.com/about-us/">About Us</a></li>
+												<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-186"><a href="https://acic.searchsolutionspl.com/future-students/">Future Students</a>
+													<ul class="sub-menu">
+														<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-187"><a href="https://acic.searchsolutionspl.com/future-students/services-and-facilities/">Services and Facilities</a></li>
+														<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-303"><a href="https://acic.searchsolutionspl.com/future-students/application/">Application</a></li>
+														<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="https://acic.searchsolutionspl.com/all-courses/">Courses</a></li>
+														<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-191"><a href="https://acic.searchsolutionspl.com/future-students/living-in-australia/">Living In Australia</a></li>
+														<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-306"><a href="https://acic.searchsolutionspl.com/future-students/important-information/">Important information</a></li>
 													</ul>
-												</div>
-											</li>
-											<li class="menu-item has-sub-menu">
-												<div class="menu-item-name">
-													<a href="./campus-location.php">
-														<span class="menu-item-title-wrap">Current Students</span>
-														<span class="sub-menu-indicator"><i class="fas fa-angle-down"></i></span>
-													</a>
-												</div>
-												<div class="menu-sub-item">
-													<ul>
-														<li><a href="./">USI Registration</a></li>
-														<li><a href="./resources.php">Resource</a></li>
-														<li><a href="">Courses</a></li>
-														<li><a href="">Student Portal</a></li>
-														<li><a href="./student-support.php">Student Support</a></li>
+												</li>
+												<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-194"><a href="https://acic.searchsolutionspl.com/current-students/">Current Students</a>
+													<ul class="sub-menu">
+														<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-307"><a href="#">USI Registration</a></li>
+														<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-201"><a href="https://acic.searchsolutionspl.com/current-students/resources/">Resources</a></li>
+														<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-308"><a href="#">Student Portal</a></li>
+														<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-197"><a href="https://acic.searchsolutionspl.com/current-students/student-support/">Student Support</a></li>
 													</ul>
-												</div>
-											</li>
-											<li class="menu-item">
-												<div class="menu-item-name">
-													<a href="./course.php">
-														<span class="menu-item-title-wrap">Courses       </span>
-													</a>
-												</div>
-											</li>
-											<li class="menu-item">
-												<div class="menu-item-name">
-													<a href="">
-														<span class="menu-item-title-wrap">Download       </span>
-													</a>
-												</div>
-											</li>
-											<li class="menu-item">
-												<div class="menu-item-name">
-													<a href="./contact.php">
-														<span class="menu-item-title-wrap">Contact us</span>
-													</a>
-												</div>
-											</li>
-										</ul>
+												</li>
+												<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-238"><a href="https://acic.searchsolutionspl.com/all-courses/">Courses</a>
+													<ul class="sub-menu">
+														<li class="menu-item menu-item-type-taxonomy menu-item-object-course-category menu-item-has-children menu-item-310"><a href="https://acic.searchsolutionspl.com/course-category/accounting/">Accounting</a>
+															<ul class="sub-menu">
+																<li class="menu-item menu-item-type-post_type menu-item-object-acic-course menu-item-313"><a href="https://acic.searchsolutionspl.com/acic-course/certificate-i-in-financial-analysis/">Certificate I in Financial Analysis</a></li>
+																<li class="menu-item menu-item-type-post_type menu-item-object-acic-course menu-item-314"><a href="https://acic.searchsolutionspl.com/acic-course/certificate-iv-in-entrepreneurship-and-new-business/">Certificate IV in Entrepreneurship and New Business</a></li>
+																<li class="menu-item menu-item-type-post_type menu-item-object-acic-course menu-item-317"><a href="https://acic.searchsolutionspl.com/acic-course/certificate-iii-in-entrepreneurship-and-new-business/">Certificate III in Entrepreneurship and New Business</a></li>
+															</ul>
+														</li>
+														<li class="menu-item menu-item-type-taxonomy menu-item-object-course-category menu-item-has-children menu-item-311"><a href="https://acic.searchsolutionspl.com/course-category/business-management/">Business &amp; Management</a>
+															<ul class="sub-menu">
+																<li class="menu-item menu-item-type-post_type menu-item-object-acic-course menu-item-315"><a href="https://acic.searchsolutionspl.com/acic-course/certificate-i-in-entrepreneurship-and-new-business/">Certificate I in Entrepreneurship and New Business</a></li>
+															</ul>
+														</li>
+														<li class="menu-item menu-item-type-taxonomy menu-item-object-course-category menu-item-has-children menu-item-312"><a href="https://acic.searchsolutionspl.com/course-category/information-technology/">Information Technology</a>
+															<ul class="sub-menu">
+																<li class="menu-item menu-item-type-post_type menu-item-object-acic-course menu-item-316"><a href="https://acic.searchsolutionspl.com/acic-course/certificate-iv-in-information-technology-networking/">Certificate IV in Information Technology (Networking)</a></li>
+															</ul>
+														</li>
+													</ul>
+												</li>
+												<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-253"><a href="https://acic.searchsolutionspl.com/current-students/resources/">Download</a></li>
+												<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-256"><a href="https://acic.searchsolutionspl.com/contact-us/">Contact Us</a></li>
+											</ul>
+										</div>
 									</div>
 								</div>
 								<div class="search-icon">
-									<i class="fas fa-search"></i>
+									<a href="/?s"><i class="fas fa-search"></i></a>
 								</div>
 							</div>
 						</div>
