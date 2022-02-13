@@ -327,6 +327,9 @@
 		display: flex;
 		flex-direction: column-reverse;
 		display: none;
+		max-height: calc(100vh - 79px);
+		overflow-y: auto;
+		overflow-x: hidden;
 	}
 	.mega-menu .menu-links, #header .secondary-menu {
 		display: block !important;
