@@ -371,4 +371,12 @@
 	.responsive-menu-wrp.show{
 		display: flex !important;
 	}
+	#header .primary-menu-ul.nav-ul ul {
+		top: 0;
+		left: 0;
+		padding: 0 0 1.5rem 1rem;
+	}
+	#header .sub-menu .menu-item.menu-item-has-children > a:after {
+		transform: rotate(90deg);
+	}
 }
