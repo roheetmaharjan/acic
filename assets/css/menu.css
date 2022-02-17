@@ -299,16 +299,14 @@
     background-color: var(--light-background);
     text-decoration: none;
 }
-@media(max-width: 992px) {
-	#header .scroll-to-fixed-fixed .primary-menu-ul.nav-ul li:hover > ul {
-		left: auto;
-		right: 0;
-	}
-	#header .scroll-to-fixed-fixed .primary-menu-ul.nav-ul li li:hover > ul {
-		left: 100%;
-		top: 0;
-	}	
+#header .scroll-to-fixed-fixed .primary-menu-ul.nav-ul li:hover > ul {
+	left: auto;
+	right: 0;
 }
+#header .scroll-to-fixed-fixed .primary-menu-ul.nav-ul li li:hover > ul {
+	left: 100%;
+	top: 0;
+}	
 @media(max-width: 992px) {
 	#header .apply-btn {
 		margin-right: 0;
