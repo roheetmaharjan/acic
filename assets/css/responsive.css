@@ -169,6 +169,13 @@
     .video-gallery .video-gallery-item {
         margin-bottom: 3rem;
     }
+    .image-text-wrapper .image-text-item .image-wrapper{
+        max-width: 80px;
+        width: 100%;
+    }
+    .image-text-wrapper .image-text-item .text-wrapper{
+        width: calc(100% - 80px);
+    }
 }
 @media(max-width: 414px) {
     div.our_p {
